@@ -17,10 +17,10 @@ public class Main {
         }
 
         // bids after restart
-        auction.placeBid("Alice", 340);
-        auction.placeBid("Bob", 204);
+        auction.placeBid("Alice", 300);
+        auction.placeBid("Bob", 330);
         auction.placeBid("Charlie", 200);
-        auction.placeBid("Dave", 300);
+        auction.placeBid("Dave", 210);
 
         winner = auction.closeAuction();
         if (winner != null) {

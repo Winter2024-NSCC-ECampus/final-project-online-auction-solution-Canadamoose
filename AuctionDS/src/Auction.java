@@ -26,7 +26,7 @@ public class Auction {
     // if using LinkedHashSet
 //    public String closeAuction() {
 //        if (currentMaxBid == -1) {
-//            restartAuction();
+//            currentMinBid++;
 //            return null;
 //        }
 //        return bidsMap.get(currentMaxBid).iterator().next();
